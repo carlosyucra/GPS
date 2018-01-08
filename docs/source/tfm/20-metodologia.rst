@@ -53,7 +53,11 @@ Esta información no fue documentada, sin embargo PMBOK recomienda hacerlo.
 Gestión del Cronograma
 ----------------------
 
- En esta sesión describiremos cómo será gestionado según el tiempo del proyecto, para ellos incluye procesos requeridos desde la definición y el secuenciamiento de las actividades hasta la estimación de la duración de cada actividad y desarrollo del cronograma del proyecto.
+En esta sesión describiremos cómo será gestionado según el tiempo del proyecto, para ellos incluye procesos requeridos desde la definición y el secuenciamiento de las actividades hasta la estimación de la duración de cada actividad y desarrollo del cronograma del proyecto.
 
 Para esta elaboración se tomará en cuenta los hitos del proyecto. las cuales se usarán para definir las fechas principales del proyecto.
 
+
+
+a    b    c
+a    d	  s

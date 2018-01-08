@@ -45,9 +45,9 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'CARTO Big Data connectors'
-copyright = u'2017, Alberto Romeu Carrasco'
-author = u'Alberto Romeu Carrasco'
+project = u'GPS Trabajo Final'
+copyright = u'2017, Benavente Joao, Cuarite Cesar, Quiroga Mauricio, Tanco Corrales'
+author = u'Benavente Joao, Cuarite Cesar, Quiroga Mauricio, Tanco Corrales'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -115,7 +115,7 @@ html_sidebars = {
 # -- Options for HTMLHelp output ------------------------------------------
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'MasterBigDataAnalytics-TrabajoFinaldeMasterdoc'
+htmlhelp_basename = 'GPS-TrabajoFinaldoc'
 
 
 # -- Options for LaTeX output ---------------------------------------------
@@ -142,8 +142,8 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'CARTOBigDataconnectors.tex', u'CARTO Big Data connectors',
-     u'Alberto Romeu Carrasco', 'manual'),
+    (master_doc, 'GPS.tex', u'GPSTrabajoFinal',
+     u'Benavente Joao, Cuarite Cesar, Quiroga Mauricio, Tanco Corrales', 'manual'),
 ]
 
 
@@ -152,7 +152,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'cartobigdataconnectors', u'CARTO Big Data connectors',
+    (master_doc, 'cartobigdataconnectors', u'GPS Trabajo Final',
      [author], 1)
 ]
 
@@ -163,8 +163,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'CARTOBigDataconnectors', u'CARTO Big Data connectors',
-     author, 'CARTOBigDataconnectors', 'One line description of project.',
+    (master_doc, 'GPSTrabajoFinal', u'GPSTrabajoFinal',
+     author, 'GPSTrabajoFinal', 'One line description of project.',
      'Miscellaneous'),
 ]
 
