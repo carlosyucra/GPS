@@ -1,0 +1,203 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Introducción &mdash; documentación de Prueba - 1.0</title>
+    
+    <link rel="stylesheet" href="../_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../',
+        VERSION:     '1.0',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../_static/jquery.js"></script>
+    <script type="text/javascript" src="../_static/underscore.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <script type="text/javascript" src="../_static/translations.js"></script>
+    <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <link rel="top" title="documentación de Prueba - 1.0" href="../index.html" />
+   
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head>
+  <body role="document">  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="introduccion">
+<h1>Introducción<a class="headerlink" href="#introduccion" title="Enlazar permanentemente con este título">¶</a></h1>
+<div class="section" id="contexto">
+<h2>Contexto<a class="headerlink" href="#contexto" title="Enlazar permanentemente con este título">¶</a></h2>
+<p><em>CARTO</em> <a class="footnote-reference" href="#f1" id="id1">[1]</a> es una plataforma de <span class="xref std std-ref">location-intelligence</span> que permite transformar datos geoespaciales en resultados de negocio.</p>
+<p>Actualmente, las organizaciones que utilizan <em>CARTO</em> como herramienta de análisis geoespacial tienen multitud de fuentes de información y aplicaciones ya instaladas que generan continuamente nuevos datos.</p>
+<p>El principal valor de <em>CARTO</em> para estas organizaciones es el de conectarse con esas fuentes de información (datos de <span class="xref std std-ref">crm</span>, <span class="xref std std-ref">erp</span>, hojas de cálculo, archivos con contenido geoespacial, bases de datos relacionales, etc.) a través de una interfaz sencilla e intuitiva, para generar nueva información de valor añadido para su negocio mediante análisis geoespaciales y visualizaciones.</p>
+<p>En determinadas organizaciones, especialmente de tamaño medio o grande, ocurre que diversos equipos gestionan sus datos con sistemas de información heterogéneos que utilizan repositorios de datos tales como:</p>
+<ul class="simple">
+<li>Hojas de cálculo y archivos CSV (valores separados por comas)</li>
+<li>Documentos de Google Drive <a class="footnote-reference" href="#f2" id="id2">[2]</a></li>
+<li>CRMs tales como Salesforce <a class="footnote-reference" href="#f3" id="id3">[3]</a></li>
+<li>Herramientas de marketing digital como Mailchimp <a class="footnote-reference" href="#f4" id="id4">[4]</a></li>
+<li>Servidores de datos geoespaciales como ArcGIS <a class="footnote-reference" href="#f5" id="id5">[5]</a></li>
+<li>Bases de datos operacionales (relacionales o <span class="xref std std-ref">nosql</span>)</li>
+<li>Sistemas de ficheros distribuidos <span class="xref std std-ref">hdfs</span></li>
+<li>Otros sistemas (Twitter <a class="footnote-reference" href="#f6" id="id6">[6]</a>, Dropbox <a class="footnote-reference" href="#f7" id="id7">[7]</a>, etc.)</li>
+</ul>
+</div>
+<div class="section" id="definicion-del-problema">
+<h2>Definición del problema<a class="headerlink" href="#definicion-del-problema" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>Estas organizaciones utilizan <em>CARTO</em> para importar sus datos y analizar la información que generan los distintos departamentos de manera conjunta, respondiendo a sus preguntas de negocio y encontrando además respuesta a otras preguntas que no se habían planteado en un principio.</p>
+<p><em>CARTO</em> cuenta con la posibilidad de importar datos desde diversas fuentes de datos, pero carece de soporte nativo para conectar a muchos de estos sistemas de almacenamiento Big Data usados generalmente para almacenar datos operacionales o secuencias de datos temporales.</p>
+</div>
+<div class="section" id="objetivo">
+<h2>Objetivo<a class="headerlink" href="#objetivo" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>El objetivo de este trabajo final de máster consiste en el desarrollo de conectores para <em>CARTO</em> que permitan incluir en los cuadros de mandos (<span class="xref std std-ref">dashboard</span>), información proveniente de los siguientes sistemas de almacenamiento y/o procesamiento Big Data:</p>
+<ul class="simple">
+<li>Apache Hive</li>
+<li>Impala</li>
+<li>Amazon Redshift</li>
+<li>MongoDB</li>
+<li>Google BigQuery</li>
+<li>Cassandra</li>
+<li>SparkSQL</li>
+<li>Amazon Aurora</li>
+<li>Oracle</li>
+</ul>
+<p>Los &#8220;conectores Big Data para <em>CARTO</em>&#8221; permitirán a las organizaciones mantener sus actuales flujos de ingestión y procesamiento de información, además de aprovechar lo mejor de dos mundos: el almacenamiento y procesamiento distribuido que ofrecen algunas de estas herramientas orientadas a Big Data y la visualiación y análisis geoespacial de <em>CARTO</em>.</p>
+<p>Cabe destacar que los resultados de este trabajo no son de carácter teórico, sino que consiste en código fuente y herramientas que se incluirán en la distribución <span class="xref std std-ref">on-premise</span> de <em>CARTO</em></p>
+</div>
+<div class="section" id="organizacion-de-este-trabajo-final-de-master">
+<h2>Organización de este trabajo final de máster<a class="headerlink" href="#organizacion-de-este-trabajo-final-de-master" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>Este trabajo final de máster está organizado en capítulos, siguiendo la siguiente estructura:</p>
+<ol class="arabic simple">
+<li><span class="xref std std-ref">estado-del-arte</span>: Se repasan las herramientas de almacenamiento y procesamiento Big Data con las que se va a trabajar y se definen algunos de los conceptos teóricos que sirven de fundamentación para el trabajo.</li>
+<li><span class="xref std std-ref">metodologia</span>: Definición de una metodología de trabajo sistemática y desglose en tareas del trabajo a realizar.</li>
+<li><span class="xref std std-ref">desarrollo</span>: Descripción de la implementación de cada uno de los conectores, demostración de uso, etc.</li>
+<li><span class="xref std std-ref">conclusiones</span></li>
+<li><span class="xref std std-ref">bibliografia</span></li>
+<li><span class="xref std std-ref">anexos</span></li>
+<li><span class="xref std std-ref">glosario</span></li>
+</ol>
+<p>Palabras clave: <em>BASH, Docker, Vagrant, Location Intelligence, AWS, HDFS, Hadoop, BigQuery, Hive, Impala, Spark, NoSQL, Cassandra, MongoDB, CARTO, dashboards, análisis geoespacial</em></p>
+<table class="docutils footnote" frame="void" id="f1" rules="none">
+<colgroup><col class="label" /><col /></colgroup>
+<tbody valign="top">
+<tr><td class="label"><a class="fn-backref" href="#id1">[1]</a></td><td><a class="reference external" href="https://www.carto.com">https://www.carto.com</a> - septiembre 2017</td></tr>
+</tbody>
+</table>
+<table class="docutils footnote" frame="void" id="f2" rules="none">
+<colgroup><col class="label" /><col /></colgroup>
+<tbody valign="top">
+<tr><td class="label"><a class="fn-backref" href="#id2">[2]</a></td><td><a class="reference external" href="https://drive.google.com">https://drive.google.com</a> - septiembre 2017</td></tr>
+</tbody>
+</table>
+<table class="docutils footnote" frame="void" id="f3" rules="none">
+<colgroup><col class="label" /><col /></colgroup>
+<tbody valign="top">
+<tr><td class="label"><a class="fn-backref" href="#id3">[3]</a></td><td><a class="reference external" href="https://www.salesforce.com">https://www.salesforce.com</a> - septiembre 2017</td></tr>
+</tbody>
+</table>
+<table class="docutils footnote" frame="void" id="f4" rules="none">
+<colgroup><col class="label" /><col /></colgroup>
+<tbody valign="top">
+<tr><td class="label"><a class="fn-backref" href="#id4">[4]</a></td><td><a class="reference external" href="https://mailchimp.com">https://mailchimp.com</a> - septiembre 2017</td></tr>
+</tbody>
+</table>
+<table class="docutils footnote" frame="void" id="f5" rules="none">
+<colgroup><col class="label" /><col /></colgroup>
+<tbody valign="top">
+<tr><td class="label"><a class="fn-backref" href="#id5">[5]</a></td><td><a class="reference external" href="https://www.arcgis.com">https://www.arcgis.com</a> - septiembre 2017</td></tr>
+</tbody>
+</table>
+<table class="docutils footnote" frame="void" id="f6" rules="none">
+<colgroup><col class="label" /><col /></colgroup>
+<tbody valign="top">
+<tr><td class="label"><a class="fn-backref" href="#id6">[6]</a></td><td><a class="reference external" href="https://www.twitter.com">https://www.twitter.com</a> - septiembre 2017</td></tr>
+</tbody>
+</table>
+<table class="docutils footnote" frame="void" id="f7" rules="none">
+<colgroup><col class="label" /><col /></colgroup>
+<tbody valign="top">
+<tr><td class="label"><a class="fn-backref" href="#id7">[7]</a></td><td><a class="reference external" href="https://www.dropbox.com">https://www.dropbox.com</a> - septiembre 2017</td></tr>
+</tbody>
+</table>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../index.html">Tabla de Contenidos</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Introducción</a><ul>
+<li><a class="reference internal" href="#contexto">Contexto</a></li>
+<li><a class="reference internal" href="#definicion-del-problema">Definición del problema</a></li>
+<li><a class="reference internal" href="#objetivo">Objetivo</a></li>
+<li><a class="reference internal" href="#organizacion-de-este-trabajo-final-de-master">Organización de este trabajo final de máster</a></li>
+</ul>
+</li>
+</ul>
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="../index.html">Documentation overview</a><ul>
+  </ul></li>
+</ul>
+</div>
+  <div role="note" aria-label="source link">
+    <h3>Esta página</h3>
+    <ul class="this-page-menu">
+      <li><a href="../_sources/tf/01-intro.txt"
+            rel="nofollow">Mostrar el código</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Búsqueda rápida</h3>
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Ir a" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Introduzca los términos de búsqueda o un nombre de módulo, clase o función.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2018, Carlos Yucra.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 1.3.6</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.7</a>
+      
+      |
+      <a href="../_sources/tf/01-intro.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>

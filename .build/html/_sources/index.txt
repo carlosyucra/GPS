@@ -1,0 +1,39 @@
+.. Prueba documentation master file, created by
+   sphinx-quickstart on Sun Jan  7 09:29:48 2018.
+   You can adapt this file completely to your liking, but it should at least
+   contain the root `toctree` directive.
+
+Gestión de Proyectos de Software
+==================================
+
+Artículo:
+Aplicación de las Directrices del PMBOK en la gestión de la Construcción del Software MiniERP en el módulo de Logística
+
+.. toctree::
+   :maxdepth: 2
+
+Indices and tabless
+===================
+
+* :ref:`tf/01-intro`
+* :ref:`genindex`
+* :ref:`modindex`
+* :ref:`search`
+
+Level 1
+=======
+
+	===================================================
+	This is level 1 too, but looks better in plain text
+	===================================================
+
+	Level 2
+	-------
+
+	Level 3
+	^^^^^^^
+
+	Level 4
+	"""""""
+
+
