@@ -77,9 +77,10 @@ Las técnicas utilizadas son:
 Gestión de la Información 
 -------------------------
 
-El sistema para la gestión de información debe incluir procedimientos para preparar, recoger, identificar, clasificar, distribuir, actualizar, archivar y recuperación de información. Esta información es de suma importancia para los receptores  en donde debe ser clara, precisa y distribuida para que tenga una efectividad real [12].
+El sistema para la gestión de información debe incluir procedimientos para preparar, recoger, identificar, clasificar, distribuir, actualizar, archivar y recuperación de información. Esta información es de suma importancia para los receptores  en donde debe ser clara, precisa y distribuida para que tenga una efectividad real [#f1]_.
 
 Por ejemplo: en este proyecto se tuvo que realizar elicitación y educción de la información para poder plasmar y realizar los requerimientos de los cuales se hizo los casos de uso, diagramas de estados, secuencia y actividades. Para que se visualice los posibles escenarios y se sepa con exactitud de la información recabada y lo que se quiere. 
 
 Dando a saber en donde se encuentra nuestro requerimiento y en que parte de nuestro desarrollo está realizada dicho requerimiento.
 
+.. [#f1] Concepción Suarez, Ramiro “ Metodologia de Gestion de Proyectos en las Administraciones Públicas según ISO 10.006  ”Fecha de Publicación: Oct.2007.
