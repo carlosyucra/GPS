@@ -57,7 +57,3 @@ En esta sesión describiremos cómo será gestionado según el tiempo del proyec
 
 Para esta elaboración se tomará en cuenta los hitos del proyecto. las cuales se usarán para definir las fechas principales del proyecto.
 
-
-
-a    b    c
-a    d	  s
