@@ -1,37 +1,10 @@
 .. _conclusiones:
 
-Conclusiones
+Impacto del Uso de Directrices
 ============
 
-En este trabajo final de máster nos habíamos propuesto solucionar el problema de conectar *CARTO* con los actuales sistemas de almacenamiento Big Data disponibles en el mercado.
+La utilización de las directrices del PMBOK ayuda a que nuestro proyecto este llendo por el camino del exito, cumpliemdo estandares y reglas que hacen que la Calidad del Software aumente.
 
-La premisa era clara: *Realizar una conexión desde CARTO a estos sistemas, para importar datos y obtener lo mejor de dos mundos, el almacenamiento y procesamiento de sistemas preparados para trabajar con datos masivos y las capacidades de análisis y visualización geoespacial de CARTO*
+Este impacto abarca tanto a las personas que lo fabrican como a las personas que adquieren dicho software, también este impacto nos ayudo a realizar manejo de versiones en donde se hacía un estudio y luego se realizaba una nueva versión mejorada; se aplico tanto al desarrollo como a la documentación.
 
-Una vez analizado el estado del arte en cuanto a *CARTO* y los principales sistemas de almacenamiento y procesamiento Big Data (Hive, Impala, Redshift, MongoDB, Google Bigquery), encontramos un nexo de unión entre ambos: las capacidades de conectividad de PostgreSQL con sistemas de terceros a través de Foreign Data Wrappers.
-
-Dado este nexo de unión, se pretende obtener una metodología sistemática que permita realizar conexiones desde PostgreSQL a sistemas de almacenamiento masivo y a través de la experimentación se exponen casos concretos de esta metodología para los principales sistemas de almacenamiento y procesamiento.
-
-Una vez desarrollados los diferentes conectores, a través de un caso de uso consistente en [TODO] se demuestran las nuevas capacidades de conexión de *CARTO* con sistemas Big Data.
-
-Por último, cabe descatar que durante este trabajo final de máster, se ha pretendido seguir la filosofía del plan de estudios del Máster Big Data Analytics de la Universidad Politécnica de Valencia, consistente en mostrar lo amplio del ecosistema Big Data y de las capacidades y aptitudes que deben poseer los profesionales de este sector.
-
-En concreto, este trabajo está relacionado con los siguientes contenidos tratados durante el máster:
-
-- BASH
-- Virtualización: Docker y Vagrant
-- Business/Location Intelligence
-- Entornos de gestión Big Data: AWS, Azure, Hadoop, BigQuery, etc.
-- NoSQL: Cassandra, MongoDB
-- Técnicas y herramientas de visualización
-
-Trabajo futuro
---------------
-
-Agradecimientos
----------------
-
-ern
-goi
-da
-js
-ab
+El uso de las directrices dio lugar al uso del ISO 10006 el que ayuda a que el software vaya por el camino de la Calidad otorgando confianza al cliente, también ayuda a que haya un buen control y seguimiento de cómo va ejecutándose nuestro proyecto; y de cómo se va cumpliendo las obligaciones de los involucrados. 

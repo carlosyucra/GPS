@@ -1,4 +1,4 @@
-.. CARTO Big Data connectors documentation master file, created by
+.. GPS Trabajo Final documentation master file, created by
    sphinx-quickstart on Sun Oct  1 20:01:42 2017.
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
@@ -17,9 +17,9 @@ Aplicación de las Directrices del PMBOK en la Gestión de la Construcción del 
    tfm/20-metodologia
    tfm/30-desarrollo
    tfm/40-conclusiones
+   tfm/41-trabajos
+   tfm/42-conclusiones2
    tfm/50-bibliografia
-   tfm/60-anexos
-   tfm/99-glosario
 
 
 Indices and tables
